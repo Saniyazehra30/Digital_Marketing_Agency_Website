@@ -13,6 +13,11 @@ export default function TestimonialsPage() {
       feedback:
         "They redesigned our website and launched Facebook Ads — we now get consistent leads every week!",
     },
+     {
+      name: "Saniya",
+      feedback:
+        "They redesigned our website and launched Facebook Ads — we now get consistent leads every week!",
+    },
     {
       name: "Nikhil Rao",
       feedback:
