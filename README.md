@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌐 Digital Marketing Agency Website
 
 A full-fledged, modern, and responsive digital marketing agency website built using **React**, **Tailwind CSS**, and **React Router DOM**. Ideal for showcasing services, portfolios, and lead generation.
@@ -78,3 +79,6 @@ Would you like help now to:
 - Add optional features like animations or a blog page?
 
 Let’s launch it together!
+=======
+# Digital_Marketing_Agency_Website
+>>>>>>> 91ff6e1ebd908f75abc659e900583d4fa63e9aa5
