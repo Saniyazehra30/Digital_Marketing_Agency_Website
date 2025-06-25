@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can also add custom styles below */
+body {
+  font-family: 'Times New Roman', Arial, sans-serif;
+  color: #333;
+  background-color: #042c3d;
+  padding:0;
+  margin:0;
+}
