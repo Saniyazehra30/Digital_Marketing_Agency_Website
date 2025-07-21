@@ -10,3 +10,64 @@ body {
   padding:0;
   margin:0;
 }
+@layer utilities {
+  /* === Keyframes === */
+  @keyframes pageFade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes imageZoom {
+    from { transform: scale(1.05); }
+    to { transform: scale(1); }
+  }
+
+  @keyframes fadeUp {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes buttonSlide {
+    from {
+      transform: translateX(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  /* === Animation Classes === */
+  .animate-page-fade {
+    animation: pageFade 0.8s ease-in-out;
+  }
+
+  .animate-image-zoom {
+    animation: imageZoom 2s ease-out;
+  }
+
+  .animate-fade-up-heading {
+    animation: fadeUp 1s ease-in-out forwards;
+    animation-delay: 0.6s;
+    opacity: 0;
+  }
+
+  .animate-fade-up-delay {
+    animation: fadeUp 1s ease-in-out forwards;
+    animation-delay: 1.4s;
+    opacity: 0;
+  }
+
+  .animate-button-slide {
+    animation: buttonSlide 1s ease-out forwards;
+    animation-delay: 2s;
+    opacity: 0;
+  }
+}
